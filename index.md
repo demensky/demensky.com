@@ -21,6 +21,15 @@
 -   [Angular 2+],
 -   [rxjs].
 
+### Стек технологий:
+
+-   [TypeScript],
+-   [Angular 2+],
+-   [rxjs],
+-   [React],
+-   [Node.js],
+-   [scss].
+
 ## Опыт работы
 
 ### [Andersen](https://www.andersenlab.com/)
@@ -154,3 +163,5 @@
 [requirejs]: https://requirejs.org/
 [knockout.js]: http://knockoutjs.com/
 [scss]: https://sass-lang.com/
+[React]: https://reactjs.org/
+[Node.js]: https://nodejs.org/
