@@ -28,7 +28,10 @@
 -   [rxjs],
 -   [React],
 -   [Node.js],
--   [scss].
+-   [scss],
+-   ECMAScript 2015+,
+-   [gulp],
+-   [webpack].
 
 ## Опыт работы
 
@@ -163,5 +166,6 @@
 [requirejs]: https://requirejs.org/
 [knockout.js]: http://knockoutjs.com/
 [scss]: https://sass-lang.com/
-[React]: https://reactjs.org/
-[Node.js]: https://nodejs.org/
+[react]: https://reactjs.org/
+[node.js]: https://nodejs.org/
+[gulp]: https://gulpjs.com/
