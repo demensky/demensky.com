@@ -27,7 +27,7 @@
 -   [Angular 2+],
 -   [rxjs],
 -   [React],
--   [Node.js]
+-   [Node.js],
 -   [scss].
 
 ## Опыт работы
