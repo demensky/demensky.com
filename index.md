@@ -159,9 +159,7 @@
 -   переработка существующего согласно ТЗ, контенту или дизайну;
 -   совместное решение проблем с коллегами при неочевидном её решении.
 
-[typescript]:
-    http://www.typescriptlang.org/
-    'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+[typescript]: http://www.typescriptlang.org/
 [angular 2+]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
