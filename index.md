@@ -9,6 +9,9 @@
 -   Telegram: [@demenskiy],
 -   LinkedIn: [demenskiy](https://www.linkedin.com/in/demenskiy/).
 
+[dimonsoft.info@gmail.com]: mailto:dimonsoft.info@gmail.com
+[@demenskiy]: https://t.me/demenskiy
+
 ### Данные
 
 -   родился: 1995.01.03 (23 года);
@@ -23,15 +26,22 @@
 
 ### Стек технологий:
 
--   [TypeScript],
--   [Angular 2+],
--   [rxjs],
--   [React],
--   [Node.js],
--   [scss],
--   ECMAScript 2015+,
--   [gulp],
--   [webpack].
+-   JavaScript:
+    -   ECMAScript 2015+,
+    -   [TypeScript],
+    -   [Node.js],
+-   CSS
+    -   [scss],
+    -   [Less],
+    -   [Stylus]
+-   фреймворки/библиотеки:
+    -   [Angular 2+],
+    -   [React],
+    -   [rxjs],
+-   сборка:
+    -   [Rollup],
+    -   [gulp],
+    -   [webpack].
 
 ## Опыт работы
 
@@ -149,9 +159,9 @@
 -   переработка существующего согласно ТЗ, контенту или дизайну;
 -   совместное решение проблем с коллегами при неочевидном её решении.
 
-[dimonsoft.info@gmail.com]: mailto:dimonsoft.info@gmail.com
-[@demenskiy]: https://t.me/demenskiy
-[typescript]: http://www.typescriptlang.org/
+[typescript]:
+    http://www.typescriptlang.org/
+    'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
 [angular 2+]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
@@ -169,3 +179,5 @@
 [react]: https://reactjs.org/
 [node.js]: https://nodejs.org/
 [gulp]: https://gulpjs.com/
+[stylus]: http://stylus-lang.com/
+[rollup]: https://rollupjs.org/
