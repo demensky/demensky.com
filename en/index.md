@@ -1,4 +1,4 @@
-**English** | [Русский](../)
+Language: **English**, [Русский](../).
 
 ## About me
 
