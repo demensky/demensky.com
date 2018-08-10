@@ -1,3 +1,5 @@
+**English** | [Русский](../)
+
 ## About me
 
 Senior web-developer with 5+ years of experience. I have got web-developing
