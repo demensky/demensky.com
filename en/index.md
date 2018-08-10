@@ -3,7 +3,7 @@
 Senior web-developer with 5+ years of experience. I have got web-developing
 skills on the basis of the projects mentioned below.
 
-## Contacts:
+### Contacts:
 
 -   E-mail: [dimonsoft.info@gmail.com],
 -   Telegram: [@demenskiy],
@@ -12,19 +12,19 @@ skills on the basis of the projects mentioned below.
 [dimonsoft.info@gmail.com]: mailto:dimonsoft.info@gmail.com
 [@demenskiy]: https://t.me/demenskiy
 
-## Personal info:
+### Personal info:
 
 -   born: 1995.01.03 (23 y.o.);
 -   single;
 -   place of living: Odessa (Ukraine)).
 
-## Key tech skills:
+### Key tech skills:
 
 -   [TypeScript],
 -   [Angular 2+],
 -   [rxjs].
 
-Stack of mastered technologies:
+### Stack of mastered technologies:
 
 -   JavaScript:
     -   ECMAScript 2015+,
@@ -43,7 +43,7 @@ Stack of mastered technologies:
     -   [gulp],
     -   [webpack].
 
-Work experience
+## Work experience
 
 ### [Andersen](https://www.andersenlab.com/)
 
@@ -152,7 +152,7 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 -   CSS,
 -   PSD (photoshop).
 
-###### Responsibilities:
+##### Responsibilities:
 
 -   implementation of a new website in accordance with TK, content and design;
 -   processing the existing website according to TK, content or design;
