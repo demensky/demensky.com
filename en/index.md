@@ -32,7 +32,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
     -   ECMAScript 2015+,
     -   [TypeScript],
     -   [Node.js],
--   CSSЖ
+-   CSS:
     -   [scss],
     -   [Less],
     -   [Stylus]
