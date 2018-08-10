@@ -3,7 +3,7 @@
 ## About me
 
 Senior web-developer with 5+ years of experience. I have got web-developing
-skills on the basis of the projects mentioned below.
+skills on the basis of the projects [mentioned below](#work-experience).
 
 ### Contacts:
 
@@ -18,7 +18,7 @@ skills on the basis of the projects mentioned below.
 
 -   born: 1995.01.03 (23 y.o.);
 -   single;
--   place of living: Odessa (Ukraine)).
+-   place of living: Odessa (Ukraine).
 
 ### Key tech skills:
 
@@ -32,7 +32,7 @@ skills on the basis of the projects mentioned below.
     -   ECMAScript 2015+,
     -   [TypeScript],
     -   [Node.js],
--   CSS
+-   CSSЖ
     -   [scss],
     -   [Less],
     -   [Stylus]
@@ -56,7 +56,7 @@ skills on the basis of the projects mentioned below.
 Developing of the library of directives and components on the up-to-date Angular
 version for using by various commands on different projects.
 
-All the components were developed using `OnPush` technology and the immutable
+All the components were developed using `OnPush` strategy and the immutable
 data. `<ng-template>` was actively used for customizing the components with no
 need to create similar components with the same functionality, but different
 content.
@@ -84,7 +84,7 @@ content.
 
 -   implementation of new components and directives,
 -   refactoring existing components and directives,
--   Implementation of online documentation for components and directives,
+-   implementation of online documentation for components and directives,
 -   unit testing coverage,
 -   correction of detected bugs,
 -   assistance to colleagues from parallel projects.
@@ -113,7 +113,7 @@ sessions.
 
 -   unit-testing.
 
-#### Admin panel for module platform
+#### Admin panel for platform module
 
 The page embedded via iframe to other platforms. It allowed to automate the work
 of the website owners with social networks. My first experience with

@@ -36,7 +36,7 @@ language: ru
     -   ECMAScript 2015+,
     -   [TypeScript],
     -   [Node.js],
--   CSS
+-   CSS:
     -   [scss],
     -   [Less],
     -   [Stylus]
