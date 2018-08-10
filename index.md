@@ -165,7 +165,7 @@ language: ru
 -   переработка существующего согласно ТЗ, контенту или дизайну;
 -   совместное решение проблем с коллегами при неочевидном её решении.
 
-[typescript]: http://www.typescriptlang.org/
+[typescript]: https://www.typescriptlang.org/
 [angular 2+]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/

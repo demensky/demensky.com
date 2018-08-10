@@ -160,7 +160,7 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 -   processing the existing website according to TK, content or design;
 -   team-work and problem descussion in case of unobvious decision.
 
-[typescript]: http://www.typescriptlang.org/
+[typescript]: https://www.typescriptlang.org/
 [angular 2+]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
