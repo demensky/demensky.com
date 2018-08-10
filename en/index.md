@@ -1,3 +1,7 @@
+---
+title: This is my title
+---
+
 ## About me
 
 Senior web-developer with 5+ years of experience. I have got web-developing
