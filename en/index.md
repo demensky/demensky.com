@@ -53,7 +53,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
 
 #### Internet banking, Russia
 
-Developing of the library of directives and components on the up-to-date Angular
+Developing library of directives and components on the up-to-date Angular
 version for using by various commands on different projects.
 
 All the components were developed using `OnPush` strategy and the immutable
@@ -156,8 +156,8 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 
 ##### Responsibilities:
 
--   implementation of a new website in accordance with TK, content and design;
--   processing the existing website according to TK, content or design;
+-   implementation of a new website in accordance with TOR, content and design;
+-   processing the existing website according to TOR, content or design;
 -   team-work and problem descussion in case of unobvious decision.
 
 [typescript]: https://www.typescriptlang.org/
