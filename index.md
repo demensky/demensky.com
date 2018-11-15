@@ -11,12 +11,12 @@ language: ru
 
 ### Контакты:
 
--   Почта: [dimonsoft.info@gmail.com],
--   Telegram: [@demenskiy],
--   LinkedIn: [demenskiy](https://www.linkedin.com/in/demenskiy/).
+-   Почта: [dmitry@demensky.com],
+-   Telegram: [@demensky],
+-   LinkedIn: [demensky](https://www.linkedin.com/in/demensky/).
 
-[dimonsoft.info@gmail.com]: mailto:dimonsoft.info@gmail.com
-[@demenskiy]: https://t.me/demenskiy
+[dmitry@demensky.com]: mailto:dmitry@demensky.com
+[@demensky]: https://t.me/demensky
 
 ### Данные
 
