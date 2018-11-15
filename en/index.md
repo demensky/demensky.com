@@ -7,12 +7,12 @@ skills on the basis of the projects [mentioned below](#work-experience).
 
 ### Contacts:
 
--   E-mail: [dimonsoft.info@gmail.com],
--   Telegram: [@demenskiy],
--   LinkedIn: [demenskiy](https://www.linkedin.com/in/demenskiy/).
+-   E-mail: [dmitry@demensky.com],
+-   Telegram: [@demensky],
+-   LinkedIn: [demensky](https://www.linkedin.com/in/demensky/).
 
-[dimonsoft.info@gmail.com]: mailto:dimonsoft.info@gmail.com
-[@demenskiy]: https://t.me/demenskiy
+[dmitry@demensky.com]: mailto:dimonsoft.info@gmail.com
+[@demensky]: https://t.me/demensky
 
 ### Personal info:
 
