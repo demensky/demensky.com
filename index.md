@@ -27,7 +27,7 @@ language: ru
 ### Ключевые технологии:
 
 -   [TypeScript],
--   [Angular 2+],
+-   [Angular],
 -   [rxjs].
 
 ### Стек технологий:
@@ -41,7 +41,7 @@ language: ru
     -   [Less],
     -   [Stylus]
 -   фреймворки/библиотеки:
-    -   [Angular 2+],
+    -   [Angular],
     -   [React],
     -   [rxjs],
 -   сборка:
@@ -50,6 +50,41 @@ language: ru
     -   [webpack].
 
 ## Опыт работы
+
+### Цитрус
+
+2018.10 - 2019.01
+
+#### Интернет магазин
+
+##### Основные технологии:
+
+-   [Vue],
+-   [Nuxt].
+
+### Synebo
+
+2018.08 - 2018.09
+
+#### Админ панель
+
+Админ панель в которой можно увидеть подробную статистику о предоставляемой
+услуге.
+
+##### Команда:
+
+-   2 JS разработчика,
+-   2 PHP разработчика.
+
+##### Основные технологии:
+
+-   [Angular],
+-   [TypeScript],
+-   [rxjs],
+-   [SCSS],
+-   [prettier],
+-   [tslint],
+-   [webpack].
 
 ### [Andersen](https://www.andersenlab.com/)
 
@@ -76,22 +111,13 @@ language: ru
 
 -   [TypeScript],
 -   [rxjs],
--   [Angular 2+],
+-   [Angular],
 -   [Less],
 -   [Karma]
 -   [jasmine],
 -   [prettier],
 -   [tslint],
 -   [webpack].
-
-##### Обязанности:
-
--   реализация новых компонентов и директив,
--   рефакторинг существующих компонентов и директив,
--   реализация интерактивной документации для компонентов и директив,
--   покрытие unit-тестированием,
--   исправление обнаруженных багов,
--   помощь коллегам из параллельных проектов.
 
 ### [HostingMaks](http://hostingmaks.com/)
 
@@ -113,10 +139,6 @@ language: ru
 -   [ts-node],
 -   [Mocha].
 
-##### Обязанности:
-
--   unit-тестирование.
-
 #### Админ панель для модуля платформы
 
 Страница встраиваемая через iframe в другие платформы. Она позволяла
@@ -136,12 +158,6 @@ language: ru
 -   [Knockout.js],
 -   [SCSS].
 
-##### Обязанности:
-
--   вёрстка страниц,
--   разработка UI (дизайн, вёрстка, реализация на [Knockout.js]),
--   исправление обнаруженных багов.
-
 #### Вёрстка/доработка сайтов на готовой платформе
 
 Варианты платформ были: Dex Media (EasySiteWizard), CM4all и иногда просто
@@ -159,14 +175,8 @@ language: ru
 -   CSS,
 -   PSD (photoshop).
 
-##### Обязанности:
-
--   реализация нового сайта согласно ТЗ, контенту и дизайну;
--   переработка существующего согласно ТЗ, контенту или дизайну;
--   совместное решение проблем с коллегами при неочевидном её решении.
-
 [typescript]: https://www.typescriptlang.org/
-[angular 2+]: https://angular.io/
+[angular]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
 [webpack]: https://webpack.js.org/
@@ -185,3 +195,5 @@ language: ru
 [gulp]: https://gulpjs.com/
 [stylus]: http://stylus-lang.com/
 [rollup]: https://rollupjs.org/
+[vue]: https://vuejs.org/
+[nuxt]: https://nuxtjs.org
