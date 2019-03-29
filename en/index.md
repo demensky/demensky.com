@@ -23,7 +23,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
 ### Key tech skills:
 
 -   [TypeScript],
--   [Angular 2+],
+-   [Angular],
 -   [rxjs].
 
 ### Stack of mastered technologies:
@@ -37,7 +37,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
     -   [Less],
     -   [Stylus]
 -   frameworks and libraries:
-    -   [Angular 2+],
+    -   [Angular],
     -   [React],
     -   [rxjs],
 -   build:
@@ -72,7 +72,7 @@ content.
 
 -   [TypeScript],
 -   [rxjs],
--   [Angular 2+],
+-   [Angular],
 -   [Less],
 -   [Karma]
 -   [jasmine],
@@ -136,7 +136,7 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 -   PSD (photoshop).
 
 [typescript]: https://www.typescriptlang.org/
-[angular 2+]: https://angular.io/
+[angular]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
 [webpack]: https://webpack.js.org/

@@ -27,7 +27,7 @@ language: ru
 ### Ключевые технологии:
 
 -   [TypeScript],
--   [Angular 2+],
+-   [Angular],
 -   [rxjs].
 
 ### Стек технологий:
@@ -41,7 +41,7 @@ language: ru
     -   [Less],
     -   [Stylus]
 -   фреймворки/библиотеки:
-    -   [Angular 2+],
+    -   [Angular],
     -   [React],
     -   [rxjs],
 -   сборка:
@@ -76,7 +76,7 @@ language: ru
 
 -   [TypeScript],
 -   [rxjs],
--   [Angular 2+],
+-   [Angular],
 -   [Less],
 -   [Karma]
 -   [jasmine],
@@ -141,7 +141,7 @@ language: ru
 -   PSD (photoshop).
 
 [typescript]: https://www.typescriptlang.org/
-[angular 2+]: https://angular.io/
+[angular]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
 [webpack]: https://webpack.js.org/
