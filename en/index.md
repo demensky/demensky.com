@@ -16,14 +16,14 @@ skills on the basis of the projects [mentioned below](#work-experience).
 
 ### Personal info:
 
--   born: 1995.01.03 (23 y.o.);
+-   born: 1995.01.03;
 -   single;
 -   place of living: Odessa (Ukraine).
 
 ### Key tech skills:
 
 -   [TypeScript],
--   [Angular 2+],
+-   [Angular],
 -   [rxjs].
 
 ### Stack of mastered technologies:
@@ -37,7 +37,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
     -   [Less],
     -   [Stylus]
 -   frameworks and libraries:
-    -   [Angular 2+],
+    -   [Angular],
     -   [React],
     -   [rxjs],
 -   build:
@@ -46,6 +46,40 @@ skills on the basis of the projects [mentioned below](#work-experience).
     -   [webpack].
 
 ## Work experience
+
+### Citrus
+
+2018.10 - 2019.01
+
+#### Online store
+
+##### Key technologies:
+
+-   [Vue],
+-   [Nuxt].
+
+### Synebo
+
+2018.08 - 2018.09
+
+#### Admin panel
+
+Admin panel in which you can see detailed statistics about the service provided.
+
+##### Team members:
+
+-   2 JS developers,
+-   2 PHP developers.
+
+##### Key technologies:
+
+-   [Angular],
+-   [TypeScript],
+-   [rxjs],
+-   [SCSS],
+-   [prettier],
+-   [tslint],
+-   [webpack].
 
 ### [Andersen](https://www.andersenlab.com/)
 
@@ -72,22 +106,13 @@ content.
 
 -   [TypeScript],
 -   [rxjs],
--   [Angular 2+],
+-   [Angular],
 -   [Less],
 -   [Karma]
 -   [jasmine],
 -   [prettier],
 -   [tslint],
 -   [webpack].
-
-##### Responsibilities:
-
--   implementation of new components and directives,
--   refactoring existing components and directives,
--   implementation of online documentation for components and directives,
--   unit testing coverage,
--   correction of detected bugs,
--   assistance to colleagues from parallel projects.
 
 ### [HostingMaks](http://hostingmaks.com/)
 
@@ -109,10 +134,6 @@ sessions.
 -   [ts-node],
 -   [Mocha].
 
-##### Responsibilities:
-
--   unit-testing.
-
 #### Admin panel for platform module
 
 The page embedded via iframe to other platforms. It allowed to automate the work
@@ -132,12 +153,6 @@ of the website owners with social networks. My first experience with
 -   [Knockout.js],
 -   [SCSS].
 
-##### Responsibilities:
-
--   HTML developing,
--   UI developing (design, compiling, [Knockout.js]),
--   correction of detected bugs.
-
 #### HTML-developing and finalizing websites on the finished platform:
 
 Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
@@ -154,14 +169,8 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 -   CSS,
 -   PSD (photoshop).
 
-##### Responsibilities:
-
--   implementation of a new website in accordance with TOR, content and design;
--   processing the existing website according to TOR, content or design;
--   team-work and problem descussion in case of unobvious decision.
-
 [typescript]: https://www.typescriptlang.org/
-[angular 2+]: https://angular.io/
+[angular]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [less]: http://lesscss.org/
 [webpack]: https://webpack.js.org/
@@ -180,3 +189,5 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 [gulp]: https://gulpjs.com/
 [stylus]: http://stylus-lang.com/
 [rollup]: https://rollupjs.org/
+[vue]: https://vuejs.org/
+[nuxt]: https://nuxtjs.org
