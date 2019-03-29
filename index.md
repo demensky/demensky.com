@@ -51,6 +51,41 @@ language: ru
 
 ## Опыт работы
 
+### Цитрус
+
+2018.10 - 2019.01
+
+#### Интернет магазин
+
+##### Основные технологии:
+
+-   [Vue],
+-   [Nuxt].
+
+### Synebo
+
+2018.08 - 2018.09
+
+#### Админ панель
+
+Админ панель в которой можно увидеть подробную статистику о предоставляемой
+услуге.
+
+##### Команда:
+
+-   2 JS разработчика,
+-   2 PHP разработчика.
+
+##### Основные технологии:
+
+-   [Angular],
+-   [TypeScript],
+-   [rxjs],
+-   [SCSS],
+-   [prettier],
+-   [tslint],
+-   [webpack].
+
 ### [Andersen](https://www.andersenlab.com/)
 
 2016.12 — 2018.07
@@ -160,3 +195,5 @@ language: ru
 [gulp]: https://gulpjs.com/
 [stylus]: http://stylus-lang.com/
 [rollup]: https://rollupjs.org/
+[vue]: https://vuejs.org/
+[nuxt]: https://nuxtjs.org

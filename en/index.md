@@ -16,7 +16,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
 
 ### Personal info:
 
--   born: 1995.01.03 (23 y.o.);
+-   born: 1995.01.03;
 -   single;
 -   place of living: Odessa (Ukraine).
 
@@ -46,6 +46,40 @@ skills on the basis of the projects [mentioned below](#work-experience).
     -   [webpack].
 
 ## Work experience
+
+### Citrus
+
+2018.10 - 2019.01
+
+#### Online store
+
+##### Key technologies:
+
+-   [Vue],
+-   [Nuxt].
+
+### Synebo
+
+2018.08 - 2018.09
+
+#### Admin panel
+
+Admin panel in which you can see detailed statistics about the service provided.
+
+##### Team members:
+
+-   2 JS developers,
+-   2 PHP developers.
+
+##### Key technologies:
+
+-   [Angular],
+-   [TypeScript],
+-   [rxjs],
+-   [SCSS],
+-   [prettier],
+-   [tslint],
+-   [webpack].
 
 ### [Andersen](https://www.andersenlab.com/)
 
@@ -155,3 +189,5 @@ Platforms: Dex Media (EasySiteWizard), CM4all or just static websites.
 [gulp]: https://gulpjs.com/
 [stylus]: http://stylus-lang.com/
 [rollup]: https://rollupjs.org/
+[vue]: https://vuejs.org/
+[nuxt]: https://nuxtjs.org
