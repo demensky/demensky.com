@@ -17,8 +17,7 @@ skills on the basis of the projects [mentioned below](#work-experience).
 ### Personal info:
 
 -   born: 1995.01.03;
--   single;
--   place of living: Odessa (Ukraine).
+-   single.
 
 ### Key tech skills:
 
