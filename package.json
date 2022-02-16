@@ -1,26 +1,26 @@
 {
-    "name": "demenskiy.github.io",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "precommit": "lint-staged"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/demenskiy/demenskiy.github.io.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/demenskiy/demenskiy.github.io/issues"
-    },
-    "homepage": "https://github.com/demenskiy/demenskiy.github.io#readme",
-    "devDependencies": {
-        "husky": "^0.14.3",
-        "lint-staged": "^7.2.0",
-        "prettier": "1.14.0"
-    }
+  "name": "demenskiy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demenskiy/demenskiy.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demenskiy/demenskiy.github.io/issues"
+  },
+  "homepage": "https://github.com/demenskiy/demenskiy.github.io#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "prettier": "^2.5.1"
+  }
 }
