@@ -43,8 +43,8 @@ Admin panel in which you can see detailed statistics about the service provided.
 
 **2016.12 — 2018.07.**
 
-Development, on the Angular framework, UI libraries of components and directives
-that were intended for use by developers from related teams.
+Development of UI libraries using Angular framework which include components and
+directives intended to be used by developers from the related teams.
 
 All components were developed using the `OnPush` strategy and immutable data.
 `<ng-template>` was actively used to customize components, which eliminated the
@@ -57,8 +57,9 @@ content.
 
 #### Unit tests for server API
 
-Writing tests to test the server API. First time using [TypeScript][typescript]
-for non-personal purposes, it got rid of typos and reduced debugging sessions.
+Writing tests to verify the server API. First time using
+[TypeScript][typescript] for non-personal purposes, it got rid of typos and
+reduced debugging sessions.
 
 #### Admin panel for platform module
 
