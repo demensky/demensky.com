@@ -1,77 +1,75 @@
 ---
-language: ru
+language: en-US
 ---
 
-В веб-разработке с 2013 года.
+In web development since 2013.
 
-## Ключевые технологии, с которыми я работаю:
+## Key technologies I work with:
 
-- [Angular][angular] (с 2016 года).
-- [RxJS][rxjs] (с 2016 года).
-- [TypeScript][typescript] (c 2015 года).
-- [SCSS][scss] (c 2014 года).
+- [Angular][angular] (since 2016).
+- [RxJS][rxjs] (since 2016).
+- [TypeScript][typescript] (since 2015).
+- [SCSS][scss] (since 2014).
 
-## Контакты:
+## Contacts:
 
-- Почта: [dmitry@demensky.com][demensky-email],
+- Email: [dmitry@demensky.com][demensky-email],
 - Telegram: [@demensky][demensky-telegram],
 - LinkedIn: [demensky][demensky-linkedin].
 
-## Опыт работы
+## Experience
 
 ### Room4
 
 **2019.12 – 2022.02.**
 
-Разработка расширений для Twitch, Админ страниц и веб-сайтов. Работа с JSON-RPC
-подобным протоколом поверх WebSocket. Использование монорепозитория и
-изоморфного кода.
+Development of extensions for Twitch, Admin pages and websites. Working with
+JSON-RPC like protocol over WebSocket. Using a mono-repository and isomorphic
+code.
 
-### Цитрус
+### Citrus
 
 **2018.10 — 2019.01.**
 
-Доработка интернет-магазина.
+Improvement of the online store.
 
 ### Synebo
 
 **2018.08 — 2018.09.**
 
-Админ панель в которой можно увидеть подробную статистику о предоставляемой
-услуге.
+Admin panel in which you can see detailed statistics about the service provided.
 
 ### [Andersen](https://www.andersenlab.com/)
 
 **2016.12 — 2018.07.**
 
-Разработка, на актуальной версии Angular, UI библиотеки компонентов и директив
-которые предназначались для использования разработчиками из смежных команд.
+Development, on the Angular framework, UI libraries of components and directives
+that were intended for use by developers from related teams.
 
-Все компоненты разрабатывались с использованием стратегии `OnPush` и immutable
-данных. Активно использовались `<ng-template>` для кастомизации компонентов, что
-избавило от необходимости создавать похожие компоненты с одинаковым
-функционалом, но разным наполнением.
+All components were developed using the `OnPush` strategy and immutable data.
+`<ng-template>` was actively used to customize components, which eliminated the
+need to create similar components with the same functionality, but different
+content.
 
 ### [HostingMaks](http://hostingmaks.com/)
 
 **2013.09 — 2016.11.**
 
-#### Unit тесты для серверного API
+#### Unit tests for server API
 
-Написание тестов для проверки серверного API. Впервые использовал
-[TypeScript][typescript] не для личных целей, это позволило избавиться от
-опечаток и уменьшить сеансы отладки.
+Writing tests to test the server API. First time using [TypeScript][typescript]
+for non-personal purposes, it got rid of typos and reduced debugging sessions.
 
-#### Админ панель для модуля платформы
+#### Admin panel for platform module
 
-Страница встраиваемая через iframe в другие платформы. Она позволяла
-автоматизировать работу владельцев сайтов с социальными сетями. Впервые
-познакомился с [observables][knockout-observables] (не [rxjs][rxjs]).
+Page embedded through iframe in other platforms. It allowed to automate the work
+of site owners with social networks. First introduced to
+[observables][knockout-observables] (not [rxjs][rxjs]).
 
-#### Вёрстка/доработка сайтов на готовой платформе
+#### Layout/improvement of sites on a ready-made platform
 
-Варианты платформ были: Dex Media (EasySiteWizard), CM4all и иногда просто
-статические сайты.
+The platform options were: Dex Media (EasySiteWizard), CM4all and sometimes just
+static sites.
 
 [typescript]: https://www.typescriptlang.org/
 [angular]: https://angular.io/
