@@ -23,9 +23,9 @@ In web development since 2013.
 
 **2019.12 – 2022.02.**
 
-Development of extensions for Twitch, Admin pages and websites. Working with
-JSON-RPC like protocol over WebSocket. Using a mono-repository and isomorphic
-code.
+Development of Twitch extensions, Admin pages and websites. Working with
+JSON-RPC like protocol over WebSocket. Using a mono-repository, isomorphic and
+strictly type-safe code.
 
 ### Citrus
 
@@ -43,8 +43,8 @@ Admin panel in which you can see detailed statistics about the service provided.
 
 **2016.12 — 2018.07.**
 
-Development of UI libraries using Angular framework which include components and
-directives intended to be used by developers from the related teams.
+Development of UI libraries using Angular framework which includes components
+and directives intended to be used by developers from the related teams.
 
 All components were developed using the `OnPush` strategy and immutable data.
 `<ng-template>` was actively used to customize components, which eliminated the
