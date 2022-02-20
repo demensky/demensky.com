@@ -11,6 +11,13 @@ In web development since 2013.
 - [TypeScript][typescript] (since 2015).
 - [SCSS][scss] (since 2014).
 
+## Pet Projects
+
+- [**value-transformer**](https://github.com/demensky/value-transformer)
+
+  Validation, serialization and deserialization using a single entity. Symmetric
+  serialization and deserialization. No implicit transformers.
+
 ## Contacts:
 
 - Email: [dmitry@demensky.com][demensky-email],
