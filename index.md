@@ -26,6 +26,14 @@ In web development since 2013.
 
 ## Experience
 
+## [Livatek](https://www.livatek.com/)
+
+**2022.09 – now.**
+
+**Stack**: [Angular], [GraphQL] and [RxJS].
+
+Support and improvement of the work management system for craftsmen.
+
 ### Room4
 
 **2019.12 – 2022.02.**
@@ -92,6 +100,7 @@ static sites.
 
 [typescript]: https://www.typescriptlang.org/
 [angular]: https://angular.io/
+[graphql]: https://graphql.org/
 [rxjs]: https://github.com/ReactiveX/rxjs/
 [json-rpc]: https://www.jsonrpc.org/
 [nestjs]: https://nestjs.com/
