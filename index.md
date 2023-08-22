@@ -30,6 +30,9 @@ In web development since 2013.
 
 **2019.12 – 2022.02.**
 
+**Stack**: [Angular], [NestJS], [RxJS], [JSON-RPC], [Node.js][node] and
+WebSocket.
+
 Development of Twitch extensions, Admin pages and websites. Working with
 JSON-RPC like protocol over WebSocket. Using a mono-repository, isomorphic and
 strictly type-safe code.
@@ -38,17 +41,23 @@ strictly type-safe code.
 
 **2018.10 — 2019.01.**
 
+**Stack**: Vue.
+
 Improvement of the online store.
 
 ### Synebo
 
 **2018.08 — 2018.09.**
 
+**Stack**: [Angular] and [RxJS].
+
 Admin panel in which you can see detailed statistics about the service provided.
 
 ### [Andersen](https://www.andersenlab.com/)
 
 **2016.12 — 2018.07.**
+
+**Stack**: [Angular] and [RxJS].
 
 Development of UI libraries using Angular framework which includes components
 and directives intended to be used by developers from the related teams.
@@ -61,6 +70,8 @@ content.
 ### [HostingMaks](http://hostingmaks.com/)
 
 **2013.09 — 2016.11.**
+
+**Stack**: [Knockout.js][knockout].
 
 #### Unit tests for server API
 
@@ -82,9 +93,13 @@ static sites.
 [typescript]: https://www.typescriptlang.org/
 [angular]: https://angular.io/
 [rxjs]: https://github.com/ReactiveX/rxjs/
+[json-rpc]: https://www.jsonrpc.org/
+[nestjs]: https://nestjs.com/
+[node]: https://nodejs.org/
 [prettier]: https://prettier.io/
 [eslint]: https://eslint.org/
 [knockout-observables]: http://knockoutjs.com/documentation/observables.html
+[knockout]: http://knockoutjs.com/
 [scss]: https://sass-lang.com/
 [demensky-email]: mailto:dmitry@demensky.com
 [demensky-telegram]: https://t.me/demensky
