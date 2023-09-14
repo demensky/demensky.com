@@ -1,6 +1,7 @@
 {
-    "singleQuote": true,
-    "bracketSpacing": false,
-    "trailingComma": "all",
-    "proseWrap": "always"
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "trailingComma": "all",
+  "proseWrap": "always",
+  "htmlWhitespaceSensitivity": "ignore"
 }

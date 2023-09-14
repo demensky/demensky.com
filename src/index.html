@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dmitro Demensky</title>
+    <style>
+      :root {
+        --line-height: 20px;
+        --h3-line-height: 22px;
+
+        --accent: #323b4c;
+        --job: #474747;
+
+        --small-space: 10px;
+        --middle-space: 16px;
+        --large-space: 24px;
+
+        --line-width: 2px;
+        --ring-diameter: 10px;
+
+        font: 14px / var(--line-height) 'system-ui', sans-serif;
+        background-color: lightgray;
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        height: 100%;
+      }
+
+      h1 {
+        margin-top: 0;
+        margin-bottom: var(--middle-space);
+        font-size: 36px;
+        font-weight: 600;
+        line-height: normal;
+        color: var(--accent);
+      }
+
+      h2 {
+        margin-top: var(--middle-space);
+        margin-bottom: var(--middle-space);
+        font-size: 26px;
+        line-height: normal;
+        font-weight: 400;
+        color: var(--accent);
+      }
+
+      h3 {
+        margin-top: var(--middle-space);
+        margin-bottom: var(--middle-space);
+        font-size: 17px;
+        font-weight: 700;
+        line-height: var(--h3-line-height);
+        color: var(--job);
+      }
+
+      p {
+        margin-top: var(--small-space);
+        margin-bottom: var(--small-space);
+      }
+
+      ul {
+        padding-left: var(--middle-space);
+
+        margin-top: var(--small-space);
+        margin-bottom: var(--small-space);
+      }
+
+      .page {
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: 240px 1fr;
+        grid-template-areas: 'aside main';
+        margin: 0 auto;
+        min-height: 100%;
+        align-content: center;
+      }
+
+      @media not (min-width: 600px) {
+        .page {
+          display: block;
+        }
+      }
+
+      main {
+        grid-area: main;
+        padding: var(--large-space);
+        background-color: white;
+      }
+
+      article {
+        position: relative;
+        padding-left: calc(var(--ring-diameter) + var(--middle-space));
+        margin-top: var(--middle-space);
+        margin-bottom: var(--middle-space);
+      }
+
+      article:not(:last-child)::before {
+        --line-offset: calc(
+          (var(--h3-line-height) - var(--ring-diameter) + var(--line-width)) / 2
+        );
+
+        content: '';
+        position: absolute;
+        left: calc((var(--ring-diameter) - var(--line-width)) / 2);
+        top: calc(var(--h3-line-height) - var(--line-offset));
+        bottom: calc(0px - var(--middle-space) - var(--line-offset));
+        width: var(--line-width);
+        background-color: var(--accent);
+      }
+
+      article::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: calc((var(--h3-line-height) - var(--ring-diameter)) / 2);
+        border: var(--line-width) solid var(--accent);
+        box-sizing: border-box;
+        width: var(--ring-diameter);
+        height: var(--ring-diameter);
+        border-radius: 50%;
+      }
+
+      .header-line {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--small-space);
+        justify-content: space-between;
+        margin-top: var(--small-space);
+        margin-bottom: var(--small-space);
+      }
+
+      .header-line h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .date-range {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 0;
+        opacity: 0.7;
+        color: var(--job);
+      }
+
+      aside {
+        grid-area: aside;
+        padding: var(--large-space);
+        background-color: var(--accent);
+        color: white;
+      }
+
+      aside h2 {
+        color: inherit;
+        border-bottom: 1px solid;
+        padding-top: 6px;
+        padding-bottom: 5px;
+      }
+
+      aside a {
+        color: inherit;
+      }
+
+      .photo {
+        display: block;
+      }
+
+      .photo img {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #756f57;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <main>
+        <h1>Dmytro Demensky</h1>
+
+        <h2>Angular Developer</h2>
+
+        <div>
+          <article>
+            <div class="header-line">
+              <h3>Livatek (ordrestyring.dk)</h3>
+              <p class="date-range">
+                <time datetime="2022-09">Sept. 2022</time>
+                &ndash;
+                <time datetime="2023-09">Sept. 2023</time>
+              </p>
+            </div>
+            <p>Angular Developer</p>
+            <p>
+              Support and improvement of the work management system for
+              craftsmen.
+            </p>
+            <p>
+              <strong>Stack:</strong>
+              Angular, GraphQL, RxJS, and TypeScript.
+            </p>
+          </article>
+
+          <article>
+            <div class="header-line">
+              <h3>Room4 (azarus.io)</h3>
+              <p class="date-range">
+                <time datetime="2019-12">Dec. 2019</time>
+                &ndash;
+                <time datetime="2022-02">Feb. 2022</time>
+              </p>
+            </div>
+            <p>Angular Developer</p>
+            <p>
+              Development of Twitch extensions, Admin pages and websites.
+              Working with JSON-RPC like protocol over WebSocket. Using a
+              mono-repository, isomorphic and strictly type-safe code.
+            </p>
+            <p>
+              <strong>Stack:</strong>
+              Angular, NestJS, RxJS, JSON-RPC, Node.js, WebSocket, and
+              TypeScript.
+            </p>
+          </article>
+
+          <article>
+            <div class="header-line">
+              <h3>Citrus</h3>
+              <p class="date-range">
+                <time datetime="2018-10">Oct. 2018</time>
+                &ndash;
+                <time datetime="2019-01">Jan. 2019</time>
+              </p>
+            </div>
+            <p>Web Developer</p>
+            <p>Improvement of the online store.</p>
+            <p>
+              <strong>Stack:</strong>
+              Vue.
+            </p>
+          </article>
+
+          <article>
+            <div class="header-line">
+              <h3>Andersen</h3>
+              <p class="date-range">
+                <time datetime="2016-12">Dec. 2016</time>
+                &ndash;
+                <time datetime="2018-07">July 2018</time>
+              </p>
+            </div>
+            <p>Angular Developer</p>
+            <p>
+              Development of UI libraries using Angular framework which includes
+              components and directives intended to be used by developers from
+              the related teams.
+            </p>
+            <p>
+              <strong>Stack:</strong>
+              Angular, RxJS, and TypeScript.
+            </p>
+          </article>
+
+          <article>
+            <div class="header-line">
+              <h3>HostingMaks</h3>
+              <p class="date-range">
+                <time datetime="2013-09">Sept. 2013</time>
+                &ndash;
+                <time datetime="2016-11">Nov. 2016</time>
+              </p>
+            </div>
+            <p>Web Developer</p>
+            <ul>
+              <li>Unit tests for server API.</li>
+              <li>Admin panel for platform module.</li>
+              <li>Layout/improvement of sites on a ready-made platform.</li>
+            </ul>
+            <p>
+              <strong>Stack:</strong>
+              Knockout.js, and TypeScript.
+            </p>
+          </article>
+        </div>
+      </main>
+
+      <aside>
+        <picture class="photo">
+          <source
+            type="image/avif"
+            srcset="
+              photo-1.0.avif,
+              photo-1.5.avif 1.5x,
+              photo-2.0.avif 2x,
+              photo-2.5.avif 2.5x,
+              photo-3.0.avif 3x,
+              photo-3.5.avif 3.5x,
+              photo-4.0.avif 4x
+            "
+          />
+          <source
+            type="image/webp"
+            srcset="
+              photo-1.0.webp,
+              photo-1.5.webp 1.5x,
+              photo-2.0.webp 2x,
+              photo-2.5.webp 2.5x,
+              photo-3.0.webp 3x,
+              photo-3.5.webp 3.5x,
+              photo-4.0.webp 4x
+            "
+          />
+          <img
+            src="photo-1.0.jpg"
+            width="192"
+            height="192"
+            alt="Dmytro Demensky"
+            srcset="
+              photo-1.5.jpg 1.5x,
+              photo-2.0.jpg 2x,
+              photo-2.5.jpg 2.5x,
+              photo-3.0.jpg 3x,
+              photo-3.5.jpg 3.5x,
+              photo-4.0.jpg 4x
+            "
+          />
+        </picture>
+
+        <h2>Contact</h2>
+        <ul>
+          <li>
+            <strong>Telegram</strong>
+            <br />
+            <a href="https://t.me/demensky">t.me/demensky</a>
+          </li>
+          <li>
+            <strong>Email</strong>
+            <br />
+            <a href="mailto:dmitry@demensky.com">dmitry@demensky.com</a>
+          </li>
+          <li>
+            <strong>LinkedIn</strong>
+            <br />
+            <a href="https://www.linkedin.com/in/demensky/">
+              linkedin.com/in/demensky/
+            </a>
+          </li>
+        </ul>
+
+        <h2>Pet Projects</h2>
+        <p>
+          <a href="https://github.com/demensky/value-transformer">
+            demensky/value-transformer
+          </a>
+        </p>
+        <p>
+          Validation, serialization and deserialization using a single entity.
+          Symmetric serialization and deserialization. No implicit transformers.
+        </p>
+
+        <h2>Expertise</h2>
+        <ul>
+          <li>
+            <strong>Angular</strong>
+            (since 2016)
+          </li>
+          <li>
+            <strong>RxJS</strong>
+            (since 2016)
+          </li>
+          <li>
+            <strong>TypeScript</strong>
+            (since 2015)
+          </li>
+          <li>
+            <strong>SCSS</strong>
+            (since 2014)
+          </li>
+          <li>
+            <strong>GraphQL</strong>
+            (since 2022)
+          </li>
+        </ul>
+
+        <h2>Language</h2>
+        <ul>
+          <li>English</li>
+          <li>Ukrainian</li>
+          <li>Russian</li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
