@@ -12,6 +12,9 @@
         --accent: #323b4c;
         --job: #474747;
 
+        --aside-width: 240px;
+        --main-max-width: 460px;
+
         --small-space: 10px;
         --middle-space: 16px;
         --large-space: 24px;
@@ -30,7 +33,7 @@
       }
 
       h1 {
-        margin-top: 0;
+        margin-top: var(--middle-space);
         margin-bottom: var(--middle-space);
         font-size: 36px;
         font-weight: 600;
@@ -68,14 +71,23 @@
         margin-bottom: var(--small-space);
       }
 
+      a {
+        color: inherit;
+      }
+
       .page {
-        max-width: 700px;
+        max-width: calc(
+          var(--large-space) * 2 + var(--aside-width) + var(--main-max-width)
+        );
         display: grid;
-        grid-template-columns: 240px 1fr;
-        grid-template-areas: 'aside main';
+        grid-template-columns:
+          1fr var(--aside-width) minmax(0, var(--main-max-width))
+          1fr;
+        grid-template-areas: '. aside main .' 'footer footer footer footer';
         margin: 0 auto;
         min-height: 100%;
         align-content: center;
+        justify-content: center;
       }
 
       @media not (min-width: 600px) {
@@ -85,9 +97,23 @@
       }
 
       main {
+        display: flow-root;
         grid-area: main;
-        padding: var(--large-space);
+        padding-right: var(--large-space);
+        padding-left: var(--large-space);
         background-color: white;
+      }
+
+      main::before {
+        content: '';
+        display: block;
+        margin-bottom: var(--large-space);
+      }
+
+      main::after {
+        content: '';
+        display: block;
+        margin-top: var(--large-space);
       }
 
       article {
@@ -147,10 +173,24 @@
       }
 
       aside {
+        display: flow-root;
         grid-area: aside;
-        padding: var(--large-space);
+        padding-right: var(--large-space);
+        padding-left: var(--large-space);
         background-color: var(--accent);
         color: white;
+      }
+
+      aside::before {
+        content: '';
+        display: block;
+        margin-bottom: var(--large-space);
+      }
+
+      aside::after {
+        content: '';
+        display: block;
+        margin-top: var(--large-space);
       }
 
       aside h2 {
@@ -160,11 +200,9 @@
         padding-bottom: 5px;
       }
 
-      aside a {
-        color: inherit;
-      }
-
       .photo {
+        margin-top: var(--middle-space);
+        margin-bottom: var(--middle-space);
         display: block;
       }
 
@@ -175,6 +213,14 @@
         margin-right: auto;
         background-color: #756f57;
       }
+
+      footer {
+        display: flow-root;
+        grid-area: footer;
+        text-align: right;
+        padding-left: var(--large-space);
+        padding-right: var(--large-space);
+      }
     </style>
   </head>
   <body>
@@ -182,7 +228,7 @@
       <main>
         <h1>Dmytro Demensky</h1>
 
-        <h2>Angular Developer</h2>
+        <h2>Senior Angular Developer</h2>
 
         <div>
           <article>
@@ -393,6 +439,14 @@
           <li>Russian</li>
         </ul>
       </aside>
+
+      <footer>
+        <p>
+          <a href="CV%20Dmytro%20Demenskyi%20Angular%20Developer.pdf">
+            PDF version
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
