@@ -1,6 +1,6 @@
 import sharp from 'sharp';
 
-const original = new sharp('src/photo.jpg');
+const original = new sharp('src/photo.png');
 
 const scales = [1, 1.5, 2, 2.5, 3, 3.5, 4];
 const width = 192;
