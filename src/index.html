@@ -8,15 +8,23 @@
       name="description"
       content="Senior JavaScript Developer (Angular). Kyiv, Ukraine (office/remote, full time, relocation). My goal is to find a complex and interesting project on Angular."
     />
+    <meta name="color-scheme" content="dark light" />
     <style>
       :root {
+        --text-color: black;
         --line-height: 20px;
         --h3-line-height: 22px;
+
+        --root-bg: lightgray;
 
         --accent: #323b4c;
         --job: #474747;
 
+        --aside-bg: #323b4c;
+        --aside-color: white;
         --aside-width: 240px;
+
+        --main-bg: white;
         --main-max-width: 508px;
 
         --small-space: 10px;
@@ -25,10 +33,27 @@
 
         --line-width: 2px;
         --ring-diameter: 10px;
+      }
 
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text-color: white;
+
+          --accent: #b1ccfa;
+          --job: #c7c7c7;
+
+          --aside-bg: #1f2020;
+
+          --root-bg: #3c3c3c;
+          --main-bg: #282828;
+        }
+      }
+
+      :root {
         font: 14px / var(--line-height) Arial, sans-serif;
-        background-color: lightgray;
+        background-color: var(--root-bg);
         height: 100%;
+        color: var(--text-color);
       }
 
       body {
@@ -110,7 +135,7 @@
         grid-area: main;
         padding-right: var(--large-space);
         padding-left: var(--large-space);
-        background-color: white;
+        background-color: var(--main-bg);
       }
 
       main::before {
@@ -186,8 +211,8 @@
         grid-area: aside;
         padding-right: var(--large-space);
         padding-left: var(--large-space);
-        background-color: var(--accent);
-        color: white;
+        background-color: var(--aside-bg);
+        color: var(--aside-color);
       }
 
       aside::before {
