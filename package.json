@@ -6,8 +6,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "build": "npm run build:html && npm run build:photo",
-    "build:html": "tsx --experimental-wasm-modules scripts/build-html.ts",
-    "build:photo": "tsx build-photo.js"
+    "build:html": "node --import tsx/esm --experimental-wasm-modules ./scripts/build-html.ts",
+    "build:photo": "node --import tsx/esm ./scripts/build-photo.ts"
   },
   "repository": {
     "type": "git",
