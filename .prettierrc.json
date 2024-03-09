@@ -1,4 +1,5 @@
 {
+  "plugins": ["prettier-plugin-css-grid"],
   "singleQuote": true,
   "bracketSpacing": false,
   "trailingComma": "all",
