@@ -12,19 +12,25 @@
     <style>
       :root {
         --text-color: black;
+        --text-color: light-dark(black, white);
         --line-height: 20px;
         --h3-line-height: 22px;
 
         --root-bg: lightgray;
+        --root-bg: light-dark(lightgray, #3c3c3c);
 
         --accent: #323b4c;
+        --accent: light-dark(#323b4c, #b1ccfa);
         --job: #474747;
+        --job: light-dark(#474747, #c7c7c7);
 
         --aside-bg: #323b4c;
+        --aside-bg: light-dark(#323b4c, #1f2020);
         --aside-color: white;
         --aside-width: 240px;
 
         --main-bg: white;
+        --main-bg: light-dark(white, #282828);
         --main-max-width: 508px;
 
         --small-space: 10px;
@@ -38,18 +44,6 @@
         height: 100%;
         color: var(--text-color);
         background-color: var(--main-bg);
-
-        @media (prefers-color-scheme: dark) {
-          --text-color: white;
-
-          --accent: #b1ccfa;
-          --job: #c7c7c7;
-
-          --aside-bg: #1f2020;
-
-          --root-bg: #3c3c3c;
-          --main-bg: #282828;
-        }
 
         @media (min-width: 600px) {
           background-color: var(--root-bg);
